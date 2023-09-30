@@ -17,11 +17,11 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 490px;
+  width: 400px;
   height: 350px;
   margin: auto;
   font-size: 1.5rem; }
-  @media (max-width: 490px) {
+  @media (max-width: 480px) {
     .mid-section-home {
       font-size: 1 rem;
       height: 350px;
@@ -30,8 +30,7 @@ body {
         display: none; } }
   .mid-section-home h1 {
     font-size: 3.5rem;
-    font-weight: 600;
-    width: 1000; }
+    font-weight: 600; }
 
 .sub-heading {
   width: 80%;
