@@ -30,7 +30,8 @@ body {
         display: none; } }
   .mid-section-home h1 {
     font-size: 3.5rem;
-    font-weight: 600; }
+    font-weight: 600;
+    min-width: 1000px; }
 
 .sub-heading {
   width: 80%;
