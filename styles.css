@@ -21,7 +21,7 @@ body {
   height: 350px;
   margin: auto;
   font-size: 1.5rem; }
-  @media (max-width: 520px) {
+  @media (max-width: 490px) {
     .mid-section-home {
       font-size: 1 rem;
       height: 350px;
@@ -31,7 +31,7 @@ body {
   .mid-section-home h1 {
     font-size: 3.5rem;
     font-weight: 600;
-    height: 350px; }
+    width: 100%; }
 
 .sub-heading {
   width: 80%;
