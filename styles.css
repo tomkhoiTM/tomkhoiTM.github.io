@@ -52,7 +52,7 @@ body {
   border-left: 2px solid var(--primary-text-color);
   display: flex;
   justify-content: center;
-  padding-bottom: 6px; }
+  padding-bottom: 25px; }
   .nav-link ul {
     padding-inline-start: 0; }
   .nav-link li {
