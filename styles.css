@@ -30,9 +30,7 @@ body {
         display: none; } }
   .mid-section-home h1 {
     font-size: 3.5rem;
-    font-weight: 600;
-    text-align: center;
-    max-width: 1000px; }
+    font-weight: 600; }
 
 .sub-heading {
   width: 80%;
