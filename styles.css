@@ -25,7 +25,7 @@ body {
     .mid-section-home {
       font-size: 1 rem;
       height: 350px;
-      width: 490px; }
+      width: 100%; }
       .mid-section-home span {
         display: none; } }
   .mid-section-home h1 {
