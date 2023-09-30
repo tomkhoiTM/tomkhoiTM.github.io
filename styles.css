@@ -17,7 +17,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 1000px;
+  width: 490px;
   height: 350px;
   margin: auto;
   font-size: 1.5rem; }
@@ -31,7 +31,7 @@ body {
   .mid-section-home h1 {
     font-size: 3.5rem;
     font-weight: 600;
-    width: 100%; }
+    width: 1000; }
 
 .sub-heading {
   width: 80%;
