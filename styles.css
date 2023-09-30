@@ -21,7 +21,7 @@ body {
   height: 350px;
   margin: auto;
   font-size: 1.5rem; }
-  @media (max-width: 100%) {
+  @media (max-width: 520px) {
     .mid-section-home {
       font-size: 1 rem;
       height: 350px;
@@ -30,7 +30,8 @@ body {
         display: none; } }
   .mid-section-home h1 {
     font-size: 3.5rem;
-    font-weight: 600; }
+    font-weight: 600;
+    height: 350px; }
 
 .sub-heading {
   width: 80%;
