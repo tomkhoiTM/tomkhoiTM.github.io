@@ -31,6 +31,7 @@ body {
   .mid-section-home h1 {
     font-size: 3.5rem;
     font-weight: 600;
+    text-align: center;
     min-width: 1000px; }
 
 .sub-heading {
