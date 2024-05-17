@@ -23,6 +23,16 @@ content="
 
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3QSPRTP6X6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3QSPRTP6X6');
+</script>
+
 <body onload="onLoad()">
     <select id='themeSelector' onchange="toggleTheme()" aria-label="Select theme">
     </select>
@@ -95,15 +105,5 @@ content="
     </div>
 
 </body>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3QSPRTP6X6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-3QSPRTP6X6');
-</script>
 
 </html>
