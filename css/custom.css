@@ -1,0 +1,174 @@
+#page-title {
+    transition: opacity display 0.2s ease-out;
+}
+
+#page-title-alt {
+    transition: opacity display 0.2s ease-out;
+    display: none;
+    opacity: 0;
+}
+
+a:hover {
+    color: #8bd0dd;
+    text-decoration: none!important;
+    transition: color 0.2s;
+}
+
+.custom-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.custom-list li + li {
+    margin-top: 1rem;
+}
+
+.custom-list li div {
+    margin-top: 0.5rem;
+}
+
+.outer-tags {
+    font-size: 1em;
+    margin-bottom: 0.5rem;
+}
+
+.custom-btn-year {
+    color: white;
+    background-color: #466a84;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.custom-btn-year-adjacent {
+    color: white;
+    background-color: #738da1;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.custom-white-btn {
+    color: white;
+}
+
+.custom-btn-type {
+    color: white;
+    background-color: #8bd0dd;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.custom-btn-misc {
+    background-color: #f0e5c4;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#nav-icons a + a {
+    padding-left: 0.5rem;
+}
+
+h2 {
+    display: inline;
+    background: -webkit-linear-gradient(0deg, #466a84, #75a0a9, #e1e1d3);
+    /* reef weed color: a3cf9a; sea urchin: 006867 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+.section-title {
+    margin-top: 1rem;
+    padding-bottom: 0.3rem;
+}
+
+#page-title-alt {
+    opacity: 0;
+    /* display: none; */
+}
+
+#page-title, #page-title-alt {
+    transition: 0.2s;
+}
+
+#page-subtitle {
+    font-family: Arial, Helvetica, sans-serif!important;
+}
+
+#page-subtitle-alt {
+    font-family: Shippori Antique, Meiryo, sans-serif!important;
+}
+
+.collapsible {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+
+.active, .collapsible:hover {
+    /* background-color: #ccc; */
+}
+
+.collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    margin-left: 0px;
+}
+  
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+  
+.collapse-content {
+    font-size: medium;
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.footer-text {
+    padding-top: 2rem;
+    font-size: small;
+    font-style: italic;
+}
+
+.column-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.column {
+
+}
+
+#portrait {
+    margin-left: 15px;
+    background-image: url("../assets/portrait.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ruby {
+    font-size: 1.05em;
+}
+
+.school {
+    color: #0d3751;
+}
+
+.subword {
+    display: inline-block;
+}
+
+.tofroes {
+    color: #000000;
+    font-size: 0.9rem;
+}
