@@ -9,7 +9,7 @@
 }
 
 a:hover {
-    color: #8bd0dd;
+    color: #8bd0dd!important;
     text-decoration: none!important;
     transition: color 0.2s;
 }
@@ -162,6 +162,10 @@ ruby {
 
 .school {
     color: #0d3751;
+}
+
+#sidebar-link {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .subword {
